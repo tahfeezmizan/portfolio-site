@@ -31,7 +31,7 @@ const Experiences = () => {
                     <div className="col-span-full md:col-span-3">
                         <div className="expContent3">
                             <h1 className="expTitle text-6xl font-NotoSans pb-6 font-bold">I'm Here to Help Your Next <span className='text-primaryTextColor'>Project!</span></h1>
-                            <p className="text-2xl text-textColor font-Rubik font-light pb-6">I have 2 years pluse of experience in Front End Development section. My passion is developing & solving problems through user experience and research.</p>
+                            <p className="text-xl text-textColor font-Rubik font-light pb-6">I have 2 years pluse of experience in Front End Development section. My passion is developing & solving problems through user experience and research.</p>
                             <Button className="NavButton mt-6 font-Rubik text-lg font-medium inline-flex items-center justify-center gap-2 rounded-lg w-40 h-10 border-2 py-6 bg-transparent text-primaryTextColor border-primaryTextColor hover:bg-primaryTextColor hover:text-white">
                                 <FaChevronDown />
                                 Hire Me
