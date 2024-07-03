@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: '1rem',
+        screens: {
+          'lg': '1320px',
+        },
+      },
       fontFamily: {
         Montserrat: "'Montserrat', sans-serif",
         Rubik: "'Rubik', sans-serif",

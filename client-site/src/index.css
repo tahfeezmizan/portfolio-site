@@ -16,7 +16,7 @@
 #homeSlider {
     background: linear-gradient(rgba(14, 15, 17, 0.19), rgb(17, 18, 20)), url("../src/assets/home-1.png") right center no-repeat rgb(17, 18, 20);
     transition: all 0.3s ease 0s;
-    height: 90vh;
+    height: 70vh;
     overflow: hidden !important;
 }
 
@@ -40,11 +40,73 @@
     z-index: 888;
     /* background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../image/mizan.png") center center no-repeat;
     margin-bottom: -15px !important; */
-    background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../src/assets/mizan.png")  no-repeat;
+    background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../src/assets/mizan.png") no-repeat;
     background-position: center;
-    margin-bottom: -55px !important;
+    background-size: contain;
+    /* margin-bottom: -65px !important; */
 }
 
 .socialMedia {
-    z-index: 888 ;
+    z-index: 888;
+}
+
+.socialMedia a {
+    background: rgb(42, 43, 43);
+    width: 42px;
+    height: 42px;
+    color: rgb(121, 134, 159);
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.expContent {
+    background: rgb(196, 196, 196);
+    transform: skew(-6deg);
+    z-index: 1;
+}
+
+.expContent img {
+    color: rgb(196, 196, 196);
+    filter: grayscale(100%);
+    margin-bottom: 60px !important;
+}
+
+.expContent h2 {
+    display: flex;
+    float: right;
+    padding-left: 250px;
+    line-height: 23px;
+}
+
+.expContent h2 span {
+    line-height: 45px;
+    font-family: Anton, sans-serif;
+}
+
+.expContent2 {
+    width: 270px;
+    height: 390px;
+    transform: skew(-4deg);
+    margin-top: 105px !important;
+}
+
+.expContent2 h2 span {
+    font-size: 76px;
+    line-height: 45px;
+}
+
+.expContent2 h2 {
+    display: flex;
+    line-height: 23px;
+    padding-right: 50px; 
+}
+
+.expContent2 img {
+    width: 270px;
+    height: 295px;
+}
+
+.expTitle {
+    line-height: 1.5;
 }
