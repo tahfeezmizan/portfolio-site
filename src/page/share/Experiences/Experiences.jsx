@@ -20,7 +20,7 @@ const Experiences = () => {
                             </div>
                             <div className="flex-1">
                                 <div className="expContent2 rounded-3xl">
-                                    <h2 className="font-Montserrat text-lg font-medium mb-11 mt-12 pr-12"><span className='text-7xl pr-5 font-Anton text-primaryTextColor'>2+</span> Year of experience</h2>
+                                    <h2 className="flex items-center font-Montserrat text-lg font-medium mb-11 mt-12 pr-12"><span className='text-7xl pr-5 font-Anton text-primaryTextColor'>2+</span> Year of experience</h2>
                                     <h2></h2>
                                     <img src={image2} alt="" />
                                 </div>

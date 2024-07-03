@@ -97,9 +97,8 @@
 }
 
 .expContent2 h2 {
-    display: flex;
     line-height: 23px;
-    padding-right: 50px; 
+    padding-right: 50px;
 }
 
 .expContent2 img {
@@ -109,4 +108,62 @@
 
 .expTitle {
     line-height: 1.5;
+}
+
+
+
+.applogo,
+.weblogo,
+.productlogo {
+    transform: skew(2deg);
+}
+
+.appDesign,
+.appTitle,
+.webTitle,
+.productTitle {
+    line-height: 40px;
+    transform: skew(5deg);
+}
+
+.appDesign,
+.webDesign,
+.productDesign {
+    border: 1px solid rgb(201, 207, 217);
+    transform: skew(-5deg);
+}
+
+.appDesign p.appDec,
+.webDec,
+.productDec {
+    /* font-size: 19px;
+    color: rgb(146, 147, 156);
+    font-weight: 300; */
+    line-height: 30px;
+    transform: skew(5deg);
+    /* padding: 0px 5px 0px 10px; */
+    /* font-family: Rubik, sans-serif; */
+}
+
+.webDesign:hover,
+.appDesign:hover,
+.productDesign:hover {
+    background: rgb(255, 89, 90);
+    transition: all 0.3s ease 0s;
+    box-shadow: rgba(255, 89, 90, 0.7) 0px 8px 11px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.webDesign:hover .webDec,
+.appDesign:hover .appDec,
+.productDesign:hover .productDec {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+
+.webDesign:hover .weblogo,
+.appDesign:hover .applogo,
+.productDesign:hover .productlogo {
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
 }

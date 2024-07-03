@@ -22,7 +22,8 @@ export default {
       colors: {
         HeaderBG: 'rgb(17, 18, 20)',
         primaryTextColor: 'rgb(255, 89, 90)',
-        textColor: 'rgb(138, 139, 140)'
+        textColor: 'rgb(138, 139, 140)',
+        decColor: "rgb(146, 147, 156)"
       },
     },
   },
