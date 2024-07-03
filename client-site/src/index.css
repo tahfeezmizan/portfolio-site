@@ -1,3 +1,50 @@
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Rubik", sans-serif; */
+/* font-family: "Anton", sans-serif; */
+/* font-family: "Noto Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.NavButton {
+    transform: skew(-10deg);
+}
+
+#homeSlider {
+    background: linear-gradient(rgba(14, 15, 17, 0.19), rgb(17, 18, 20)), url("../src/assets/home-1.png") right center no-repeat rgb(17, 18, 20);
+    transition: all 0.3s ease 0s;
+    height: 90vh;
+    overflow: hidden !important;
+}
+
+.sliderWrapper span.bgTxt {
+    overflow: hidden;
+    color: rgba(27, 28, 30, 0.835);
+    font-size: 310px;
+    letter-spacing: -4.5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center !important;
+}
+
+.sliderTitle {
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.sliderSubjectImg {
+    z-index: 888;
+    /* background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../image/mizan.png") center center no-repeat;
+    margin-bottom: -15px !important; */
+    background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../src/assets/mizan.png")  no-repeat;
+    background-position: center;
+    margin-bottom: -55px !important;
+}
+
+.socialMedia {
+    z-index: 888 ;
+}
