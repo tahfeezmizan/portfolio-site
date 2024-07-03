@@ -136,13 +136,8 @@
 .appDesign p.appDec,
 .webDec,
 .productDec {
-    /* font-size: 19px;
-    color: rgb(146, 147, 156);
-    font-weight: 300; */
     line-height: 30px;
     transform: skew(5deg);
-    /* padding: 0px 5px 0px 10px; */
-    /* font-family: Rubik, sans-serif; */
 }
 
 .webDesign:hover,
@@ -166,4 +161,78 @@
 .productDesign:hover .productlogo {
     background: rgb(255, 255, 255);
     transition: all 0.3s ease 0s;
+}
+
+
+
+
+.addressTitle p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(135, 144, 157);
+    font-family: Rubik, sans-serif;
+}
+
+
+.icon i.bi.bi-geo-alt, i.bi-envelope, i.bi-telephone {
+ 
+    padding: 10px;
+    font-size: 20px;
+}
+
+.address .text h2 {
+    color: rgb(66, 78, 96);
+    line-height: 20px;
+}
+
+.address .text p {
+    color: rgb(19, 34, 56);
+    line-height: 35px !important;
+}
+
+
+
+form {
+    overflow: hidden;
+    margin-top: 70px;
+    padding-left: 5px;
+}
+
+input#number {
+    width: 25%;
+    margin-right: 10px;
+}
+
+input#subject {
+    width: 60.82%;
+}
+
+input, textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    outline: none;
+    width: 90%;
+    padding: 10px 0px !important;
+    margin-left: 10px !important;
+    margin-bottom: 30px !important;
+    border-bottom: 2px solid rgb(230, 232, 235) !important;
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(121, 134, 159);
+    font-weight: 400;
+    font-family: Rubik, sans-serif;
+}
+
+textarea {
+    resize: none;
+  }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0px;
 }
