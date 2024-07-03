@@ -35,12 +35,12 @@ const Navbar = () => {
                 {/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
                 <div className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-base-100   lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
 
-                    <div className="text-white font-Montserrat text-base font-medium flex flex-col lg:items-center lg:flex-row lg:mx-6">
-                        <Link to="/" className="my-2   transition-colors duration-300 transform hover:text-[#6A38C2]  md:mx-4 md:my-0">Home</Link>
-                        <Link to="/blogs" className="my-2  transition-colors duration-300 transform dark:text-gray-200 hover:text-[#6A38C2]  md:mx-4 md:my-0">About</Link>
-                        <Link to="/all-jobs" className="my-2  transition-colors duration-300 transform dark:text-gray-200 hover:text-[#6A38C2]  md:mx-4 md:my-0">Services</Link>
+                    <div className="text-white font-Montserrat uppercase text-base font-medium flex flex-col lg:items-center lg:flex-row lg:mx-6">
+                        <Link to="/" className="my-2   transition-colors duration-300 transform hover:text-primaryTextColor md:mx-4 md:my-0">Home</Link>
+                        <Link to="/about" className="my-2  transition-colors duration-300 transform dark:text-gray-200 hover:text-primaryTextColor md:mx-4 md:my-0">About</Link>
+                        <Link to="/" className="my-2  transition-colors duration-300 transform dark:text-gray-200 hover:text-primaryTextColor md:mx-4 md:my-0">Services</Link>
 
-                        <Link to="" className="my-2  transition-colors duration-300 transform lg:hidden dark:text-gray-200 hover:text-[#6A38C2]  md:mx-4 md:my-0">Portflio</Link>
+                        <Link to="" className="my-2  transition-colors duration-300 transform lg:hidden dark:text-gray-200 hover:text-primaryTextColor md:mx-4 md:my-0">Portflio</Link>
                     </div>
                 </div>
 
