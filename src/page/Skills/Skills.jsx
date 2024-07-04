@@ -17,7 +17,7 @@ const Skills = () => {
                 {
                     logo?.map(logo => <div key={logo.name} className="">
                         <h2 className="text-4xl  font-NotoSans font-medium uppercase ">{logo.name}</h2>
-                        {/* <img className='w-14' src={logo.image} alt="HTML5" /> */}
+                        
                     </div>)
                 }
             </div>

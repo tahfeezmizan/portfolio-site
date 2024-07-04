@@ -37,6 +37,13 @@
     letter-spacing: 0.5px;
 }
 
+/* project section  */
+.projectBox:hover .projectAbout {
+    transform: translateY(0);
+}
+
+
+
 .sliderSubjectImg {
     z-index: 888;
     /* background: linear-gradient(rgba(14, 15, 17, 0) 28px, rgba(14, 15, 17, 0) 66%, rgb(17, 18, 20)) 0% 0% / 100%, url("../image/mizan.png") center center no-repeat;
@@ -293,7 +300,7 @@ a.text-center.footerLogo img {
 
 
 /* skills animation  */
-
+/* 
 @keyframes leftToRight {
     0% {
         transform: translateX(-100%);
@@ -320,7 +327,7 @@ a.text-center.footerLogo img {
 
 .animate-rightToLeft {
     animation: rightToLeft 40s linear infinite;
-}
+} */
 
 
 
@@ -819,32 +826,6 @@ a.text-center.footerLogo img {
         font-size: 126px;
     }
 
-    .PortfolioBgWrapper span.PortfolioBgTxt {
-        font-size: 230px;
-        top: 28px;
-    }
-
-    .PortfolioBgWrapper span.PortfolioBgTxt {
-        font-size: 155px;
-        top: 60px;
-    }
-
-    .projectBox {
-        width: 373px;
-        height: 339px;
-        margin: 0px 30px 45px;
-        text-align: center;
-    }
-
-    .projectFilter li {
-        padding: 8px;
-        font-size: 20px;
-    }
-
-    .servicesBgWrapper span.servicesBgTxt {
-        font-size: 180px;
-        top: 38px;
-    }
 
     .expContent,
     .expContent2 img {
