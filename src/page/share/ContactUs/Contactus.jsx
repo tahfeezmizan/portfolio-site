@@ -10,7 +10,7 @@ const Contactus = () => {
         <div className='py-20'>
             <div className="container bg-white shadow-xl border-gray-100 border rounded-2xl " id="contact">
                 <div className="formContent z-50 p-10">
-                    <div className="grid grid-cols-4 gap-5">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
                         <div className="col-span-2">
                             <div className="addressContent py-5 ps-5">
                                 <div className="addressTitle">

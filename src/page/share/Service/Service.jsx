@@ -10,7 +10,7 @@ const Service = () => {
                 <div className="servicesTitle text-center mb-10">
                     <h1 className="pb-7 text-6xl font-NotoSans font-bold ">I'm <span className='text-primaryTextColor'>Specialized</span> in</h1>
                 </div>
-                <div className="grid grid-cols-6 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-6 gap-5">
                     <div className="col-span-1 md:col-span-2 pe-6 pb-7">
                         <div className="servicesItem">
                             <div className="appDesign p-6 rounded-2xl">
