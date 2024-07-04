@@ -342,7 +342,7 @@ a.text-center.footerLogo img {
     }
 
     .sliderContent1 h1 {
-        font-size: 52px;
+        font-size: 38px;
     }
 
     .projectBox {
@@ -389,7 +389,6 @@ a.text-center.footerLogo img {
 
     .sliderTitle {
         margin-bottom: -5px;
-        font-size: 43.7px !important;
     }
 
     .sliderContent1 p {
@@ -564,7 +563,6 @@ a.text-center.footerLogo img {
 
     .sliderTitle {
         margin-bottom: -5px !important;
-        font-size: 39px !important;
     }
 
     .socialMedia {
@@ -786,7 +784,6 @@ a.text-center.footerLogo img {
     }
 
     .sliderTitle {
-        font-size: 45px !important;
         top: 90px;
     }
 
@@ -947,7 +944,7 @@ a.text-center.footerLogo img {
 /*  */
 @media only screen and (max-width: 575px) {
     #homeSlider {
-        height: 95vh;
+        height: 72vh;
     }
 
     .container {
@@ -972,7 +969,6 @@ a.text-center.footerLogo img {
     }
 
     .sliderTitle {
-        font-size: 44px !important;
         padding-right: 5rem;
         top: 90px;
     }
@@ -1029,7 +1025,7 @@ a.text-center.footerLogo img {
     .expContent,
     .expContent2 img {
         max-width: 265px;
-        height: 289px;
+        height: 321px;
         margin-left: 25px;
         margin: auto;
     }
