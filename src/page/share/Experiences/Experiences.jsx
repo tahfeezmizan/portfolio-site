@@ -11,6 +11,7 @@ import nodejs from '../../../assets/logo/node-js.svg';
 import reactjs from '../../../assets/logo/react.svg';
 import tailwindcss from '../../../assets/logo/tailwind-css.svg';
 import wordpress from '../../../assets/logo/wordpress.svg';
+import resume from '../../../assets/Front End Developer.pdf'
 
 
 const Experiences = () => {
@@ -52,9 +53,11 @@ const Experiences = () => {
                                 <img className='w-10' src={wordpress} alt="WordPress" />
                             </div>
 
-                            <Button className="NavButton mt-6 font-Rubik text-lg font-medium inline-flex items-center justify-center gap-2 rounded-lg w-40 h-10 border-2 py-6 bg-transparent text-primaryTextColor border-primaryTextColor hover:bg-primaryTextColor hover:text-white">
-                                DOWNLOAD CV
-                            </Button>
+                            <a href={resume} className="">
+                                <Button className="NavButton mt-6 font-Rubik text-lg font-medium inline-flex items-center justify-center gap-2 rounded-lg w-40 h-10 border-2 py-6 bg-transparent text-primaryTextColor border-primaryTextColor hover:bg-primaryTextColor hover:text-white">
+                                    DOWNLOAD CV
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>
