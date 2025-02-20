@@ -1,5 +1,6 @@
 import { Button } from '@headlessui/react';
 import React from 'react';
+import resume from '../../../assets/Md. Mizanur Rahman Frontend Developer.pdf';
 import image1 from '../../../assets/Image3.png';
 import image2 from '../../../assets/image4.png';
 import bootstrap from '../../../assets/logo/bootstrap-logo.svg';
@@ -10,8 +11,7 @@ import nextjs from '../../../assets/logo/next-js.svg';
 import nodejs from '../../../assets/logo/node-js.svg';
 import reactjs from '../../../assets/logo/react.svg';
 import tailwindcss from '../../../assets/logo/tailwind-css.svg';
-import wordpress from '../../../assets/logo/wordpress.svg';
-import resume from '../../../assets/Front End Developer.pdf'
+import redux from '../../../assets/logo/redux.png';
 
 
 const Experiences = () => {
@@ -42,18 +42,19 @@ const Experiences = () => {
                             <p className="text-xl text-textColor font-Rubik font-light pb-6">I have 2 years pluse of experience in Front End Development section. My passion is developing & solving problems through user experience and research.</p>
 
                             <div className="flex gap-5 flex-wrap">
-                                <img className='w-10' src={tailwindcss} alt="TailwindCSS" />
-                                <img className='w-10' src={bootstrap} alt="Bootstrap" />
                                 <img className='w-10' src={javascript} alt="JavaScript" />
                                 <img className='w-10' src={reactjs} alt="React" />
                                 <img className='w-10' src={nextjs} alt="Next.js" />
-                                <img className='w-10' src={nodejs} alt="Node.js" />
-                                <img className='w-10' src={expressjs} alt="Express.js" />
+                                <img className='w-10' src={redux} alt="redux" />
+                                <img className='w-10' src={tailwindcss} alt="TailwindCSS" />
+                                <img className='w-10' src={bootstrap} alt="Bootstrap" />
                                 <img className='w-10' src={mongodb} alt="MongoDB" />
-                                <img className='w-10' src={wordpress} alt="WordPress" />
+                                <img className='w-10' src={expressjs} alt="Express.js" />
+                                <img className='w-10' src={nodejs} alt="Node.js" />
+                                {/* <img className='w-10' src={wordpress} alt="WordPress" /> */}
                             </div>
 
-                            <a href={resume} className="">
+                            <a href={resume} className="mt-3">
                                 <Button className="NavButton mt-6 font-Rubik text-lg font-medium inline-flex items-center justify-center gap-2 rounded-lg w-40 h-10 border-2 py-6 bg-transparent text-primaryTextColor border-primaryTextColor hover:bg-primaryTextColor hover:text-white">
                                     DOWNLOAD CV
                                 </Button>

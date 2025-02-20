@@ -33,7 +33,12 @@ const Contactus = () => {
                                         </div>
                                         <div className="text ">
                                             <h2 className='text-base font-medium pt-1 font-Rubik'>My Email:</h2>
-                                            <p className='font-Rubik'>tahfeezmizan@gmail.com</p>
+                                            <a
+                                                href="mailto:tahfeezmizan@gmail.com"
+                                                className="font-Rubik hover:underline"
+                                            >
+                                                tahfeezmizan@gmail.com
+                                            </a>
                                         </div>
                                     </div>
                                     <div className="address flex items-center gap-6 mb-5">
@@ -42,7 +47,12 @@ const Contactus = () => {
                                         </div>
                                         <div className="text ">
                                             <h2 className='text-base font-medium pt-1 font-Rubik'>Call Me Now:</h2>
-                                            <p className='font-Rubik'>+880 1612675374</p>
+                                            <a
+                                                href="tel:+8801953167994"
+                                                className="font-Rubik hover:underline"
+                                            >
+                                                +880 1953167994
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
