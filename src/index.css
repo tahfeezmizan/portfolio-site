@@ -9,9 +9,16 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 .NavButton {
     transform: skew(-10deg);
 }
+
+
 
 #homeSlider {
     background: linear-gradient(rgba(14, 15, 17, 0.19), rgb(17, 18, 20)), url("../src/assets/home-1.png") right center no-repeat rgb(17, 18, 20);
