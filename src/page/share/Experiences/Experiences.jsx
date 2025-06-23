@@ -54,7 +54,11 @@ const Experiences = () => {
                                 {/* <img className='w-10' src={wordpress} alt="WordPress" /> */}
                             </div>
 
-                            <a href={resume} className="mt-3">
+                            <a 
+                                href="https://drive.google.com/file/d/1lZZqB6Y52SOA79thI2RahsWhfCfDxuCH/view"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mt-3">
                                 <Button className="NavButton mt-6 font-Rubik text-lg font-medium inline-flex items-center justify-center gap-2 rounded-lg w-40 h-10 border-2 py-6 bg-transparent text-primaryTextColor border-primaryTextColor hover:bg-primaryTextColor hover:text-white">
                                     DOWNLOAD CV
                                 </Button>
